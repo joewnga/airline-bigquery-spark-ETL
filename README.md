@@ -4,7 +4,7 @@
 
 This project is an example of extracting, transforming, and loading (ETL) the OpenSky dataset into BigQuery using PySpark and Airflow.
 
-The OpenSky dataset includes information on flight number, location, velocity, and other parameters for each aircraft tracked by the OpenSky Network. The dataset is open-sourced and can be used for research and educational purposes.
+The [OpenSky dataset]('https://zenodo.org/record/4601479#.Y8PJwnZBxPZ') includes information on flight number, location, velocity, and other parameters for each aircraft tracked by the OpenSky Network. The dataset is open-sourced and can be used for research and educational purposes.
 
 The PySpark pipeline in this project extracts the data from the dataset, performs any necessary transformations, and loads the data into BigQuery as a fact table. The pipeline is run by an Airflow DAG that can be scheduled to run on a regular interval, such as daily.
 
